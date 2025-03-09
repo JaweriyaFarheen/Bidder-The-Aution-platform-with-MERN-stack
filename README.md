@@ -50,7 +50,7 @@ Create a `.env` file at `Bidder/backend/` directory and set the following enviro
     DB_CONNECTION_STRING={your_mongodb_connection_uri}
     SALT=10 // 10 is the recommended salt here.
     SECRET={your_jwt_secret} // e.g: shhhh123.
-    ORIGIN={where_client_is_running} // e.g: http://localhost:3000
+    ORIGIN={where_frontend_is_running} // e.g: http://localhost:3000
     DEFAULT_AVATAR={cloud_url_for_an_image} // Cloudinary is recommended.
     CLOUDINARY_CLOUD_NAME={your_cloudinary_cloud_name} // Shown in cloudinary dashboard.
     CLOUDINARY_API_KEY={your_cloudinary_api_key} // Shown in cloudinary dashboard.
