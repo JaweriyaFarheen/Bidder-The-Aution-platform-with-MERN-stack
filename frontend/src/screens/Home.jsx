@@ -63,7 +63,7 @@ const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
-    url('/assets/images/hero-image.png');
+    url('/assets/images/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
